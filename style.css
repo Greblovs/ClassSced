@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.table{
+	width: 100%;
+		
+}
+.raw{
+	height: 50px;
+	width: 100%;
+}
+.time{
+	width: 9%;
+	height: 50px;	
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid black;
+}
+.firstRaw{
+	border-bottom: 1px solid black;
+}
+.day{
+	display: inline-block;
+	width: 12%;
+	height: 50px;	
+	margin-left: -4px;
+	text-align: center;
+}
+.day > span {
+	line-height: 50px;
+}
+.time > span {
+	line-height: 50px;
+}
+.third > .monday{
+	background-color: #67E667;
+}
+.third > .wdns{
+	background-color: #67E667;
+}
+.eleven > .trsday{
+	background-color: #67E667;
+}
+.fivth> .wdns{
+	background-color: #FF7373;
+}
+.fivth> .monday{
+	background-color: #FF7373;
+}
+.five > .tsday{
+	background-color: #FFB273;
+}
+.five > .trsday{
+	background-color: #FFB273;
+}
+.six > .tsday{
+	background-color: #FFB273;
+}
+.six > .trsday{
+	background-color: #FFB273;
+}
+.seven > .trsday{
+	background-color: #E667AF;
+}
+.eight > .trsday{
+	background-color: #E667AF;
+}
+.eight > .monday{
+	background-color: #E667AF;
+}
+.eight > .wdns{
+	background-color: #E667AF;
+}
+.eight > .friday{
+	background-color: #E667AF;
+}
+.six > .monday{
+	background-color: #5CCCCC;
+}
+.six > .wdns{
+	background-color: #5CCCCC;
+}
+.six > .friday{
+	background-color: #5CCCCC;
+}
+.Fixer{
+	width: 100%;
+	position: fixed;
+	background-color: #D3D3D3;
+}
+.filler{
+	height: 50px;
+	width: 100%;
+}
+
